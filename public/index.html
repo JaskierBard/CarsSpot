@@ -4,44 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="assets/logo.png" />
-    <link rel="stylesheet" href="styles.css" />
     <title>CarsSpot</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div>
-      <div>
-        <img src="assets/traces.png" alt="wheel traces as background" />
-      </div>
-      <nav>
-        <div>
+    <div class="absolute right-80">
+      <img src="assets/traces.png" alt="wheel traces as background" />
+    </div>
+    <div class="flex justify-center">
+      <nav class="w-8/12 flex justify-between align-middle p-5 z-10">
+        <div class="flex justify-between w-44">
           <img src="assets/logo.png" alt="Company logo" />
           <img src="assets/company.png" alt="Company name" />
         </div>
         <div>
-          <span>Galeria zdjęć</span>
+          <span class="">Galeria zdjęć</span>
           <span>FaQ</span>
         </div>
         <div>
-          <button>Zadzwoń do nas</button>
+          <button class="px-4 py-2 bg-mainBlue text-white rounded">
+            Zadzwoń do nas
+          </button>
         </div>
       </nav>
     </div>
-    <div>
-      <div><h1>sprzedajemy samochody z europy</h1></div>
-      <span
-        >Kup komfortowy pojazd, aby każda podróż <br />
-        była wyjątkowym przeżyciem.</span
-      >
-      <div>
-        <button>Zobacz zdjęcia</button>
-        <button>Zadzwoń do nas</button>
+    <div class="flex justify-center mt-40">
+      <div class="p-5 mb-40 w-8/12 h-4/6">
+        <h1 class="text-6xl uppercase font-bold mb-10 font-main text-fontColor">
+          sprzedajemy samochody <br />z europy
+        </h1>
+        <span
+          >Kup komfortowy pojazd, aby każda podróż <br />
+          była wyjątkowym przeżyciem.</span
+        >
+        <div>
+          <button>Zobacz zdjęcia</button>
+          <button>Zadzwoń do nas</button>
+        </div>
       </div>
     </div>
-    <div>
-      <img src="assets/background_cars.png" alt="Cars on background" />
-      <img src="assets/shadow.png" alt="Cars shadow" />
+    <div class="absolute right-0 top-96 w-3/4">
+      <div class="relative">
+        <img
+          src="assets/background_cars.png"
+          class="absolute"
+          alt="Cars on background"
+        />
+        <img src="assets/shadow.png" class="absolute" alt="Cars shadow" />
+      </div>
     </div>
-    <div>
+    <!-- <div>
       <span>Prezentacja firmy</span>
       <span>zobacz naszą galerię zdjęć</span>
       <div>
@@ -53,6 +65,6 @@
       <img src="assets/car_1.png" alt="Alfa romeo" />
       <img src="assets/car_2.png" alt="Maseratti" />
       <img src="assets/car_3.png" alt="Mercedes" />
-    </div>
+    </div> -->
   </body>
 </html>
