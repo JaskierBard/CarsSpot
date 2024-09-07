@@ -18,11 +18,11 @@
           <img src="assets/company.png" alt="Company name" />
         </div>
         <div>
-          <span class="">Galeria zdjęć</span>
-          <span>FaQ</span>
+          <span class="font-flex mr-4">Galeria zdjęć</span>
+          <span class="font-flex">FaQ</span>
         </div>
         <div>
-          <button class="px-4 py-2 bg-mainBlue text-white rounded">
+          <button class="px-4 py-2 bg-mainBlue text-white font-flex rounded">
             Zadzwoń do nas
           </button>
         </div>
@@ -36,13 +36,21 @@
           >
             sprzedajemy samochody <br />z europy
           </h1>
-          <span
+          <span class="font-condensed"
             >Kup komfortowy pojazd, aby każda podróż <br />
             była wyjątkowym przeżyciem.</span
           >
-          <div>
-            <button>Zobacz zdjęcia</button>
-            <button>Zadzwoń do nas</button>
+          <div class="mt-10">
+            <button
+              class="px-4 py-2 bg-mainBlue text-white font-flex font-semibold border-mainBlue border rounded"
+            >
+              Zobacz zdjęcia
+            </button>
+            <button
+              class="px-4 py-2 bg-white text-mainBlue font-flex font-semibold border-mainBlue border rounded"
+            >
+              Zadzwoń do nas
+            </button>
           </div>
         </div>
       </div>
@@ -57,13 +65,17 @@
     </div>
     <div class="flex justify-center">
       <div class="w-8/12 mt-96">
-        <span class="block text-mainBlue font-bold">Prezentacja firmy</span>
+        <span class="block text-mainBlue font-condensed text-2xl mb-3"
+          >Prezentacja firmy</span
+        >
         <span class="block font-main uppercase text-5xl"
           >zobacz naszą galerię zdjęć</span
         >
-        <div class="mt-10">
-          <span class="mr-10">Samochody osobowe</span>
-          <span class="">Samochody dostawcze</span>
+        <div class="mt-9">
+          <span class="mr-10 font-flex font-semibold text-mainBlue underline"
+            >Samochody osobowe</span
+          >
+          <span class="font-flex">Samochody dostawcze</span>
         </div>
       </div>
     </div>
@@ -73,20 +85,41 @@
       <img src="assets/car_2.png" alt="Maseratti" />
       <img src="assets/car_3.png" alt="Mercedes" />
     </div>
-    <div class="flex justify-around bg-gray-700">
-      <div class="w-1/4">
-        <h3>Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla commodo.</h3>
-        <span>Mauris varius ipsum mauris, rutrum lobortis magna efficitur a. Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur mi, ac venenatis eros ipsum ac arcu. Vestibulum et  [...]</span>
-        <div><span>Rozwiń</span></div>
-        
+    <div class="flex justify-center  bg-footer text-white">
+      <div class="w-1/4 mb-14 mr-40 mt-20">
+        <h3 class="font-main text-2xl">
+          Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla
+          commodo.
+        </h3>
+        <span class="font-condensed"
+          >Mauris varius ipsum mauris, rutrum lobortis magna efficitur a. Donec
+          egestas, nisl vehicula feugiat ornare, diam turpis efficitur mi, ac
+          venenatis eros ipsum ac arcu. Vestibulum et [...]</span
+        >
+        <div class="flex items-center border-b-2 w-16 mt-4">
+          <span class="mr-1 font-condensed">Rozwiń</span>
+          <img src="assets/arrow.png" alt="arrow pointing down" />
+        </div>
       </div>
-      <div class="w-1/4">
-        <h3>Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla commodo.</h3>
-        <span>Mauris varius ipsum mauris, rutrum lobortis magna efficitur a. Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur mi, ac venenatis eros ipsum ac arcu. Vestibulum et  [...]</span>
-        <div><span>Rozwiń</span></div>
+      <div class="w-1/4 mt-20">
+        <h3 class="font-main text-2xl">
+          Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla
+          commodo.
+        </h3>
+        <span class="font-condensed"
+          >Mauris varius ipsum mauris, rutrum lobortis magna efficitur a. Donec
+          egestas, nisl vehicula feugiat ornare, diam turpis efficitur mi, ac
+          venenatis eros ipsum ac arcu. Vestibulum et [...]</span
+        >
+        <div class="flex items-center border-b-2 w-16 mt-4">
+          <span class="mr-1 font-condensed">Rozwiń</span>
+          <img src="assets/arrow.png" alt="arrow pointing down" />
+        </div>
       </div>
     </div>
-    <div class="flex justify-around bg-gray-700 mt-1 p-2"><span>Cars Spot</span><span class="underline">Politka prywatności</span></div>
-
+    <div class="flex justify-around bg-footer border-t p-2 text-white">
+      <span class="font-condensed font-bold">Cars Spot</span>
+      <span class="font-condensed underline">Politka prywatności</span>
+    </div>
   </body>
 </html>
