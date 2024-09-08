@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="relative min-h-screen ">
     <div class="absolute left-2/4 h-full">
       <img
-        class="xl:h-3/4 h-3/4 md:h-4/6 md:block hidden"
+        class="lg:h-5/6 h-full sm:block hidden" 
         src="assets/traces.png"
         alt="wheel traces as background"
       />
@@ -22,13 +23,13 @@
           <img class="mr-4" src="assets/logo.png" alt="Company logo" />
           <img src="assets/company.png" alt="Company name" />
         </div>
-        <div>
-          <span class="font-flex mr-4 hidden">Galeria zdjęć</span>
-          <span class="font-flex hidden">FaQ</span>
+        <div class="sm:block hidden">
+          <span class="font-flex mr-4 ">Galeria zdjęć</span>
+          <span class="font-flex">FaQ</span>
         </div>
         <div>
           <button
-            class="px-4 py-2 w-40 bg-mainBlue text-white font-flex font-semibold rounded"
+            class="button"
           >
             Zadzwoń do nas
           </button>
@@ -36,8 +37,8 @@
       </nav>
     </div>
 
-    <div class="">
-      <div class="flex xl:justify-center ml-2 xl:ml-0 lg:mt-40 ">
+    <div>
+      <div class="flex xl:justify-center ml-2 xl:ml-0 mt-40">
         <div class="p-5 mb-40 w-8/12 z-10">
           <h1
             class="text-6xl uppercase font-bold mb-10 font-main text-fontColor"
@@ -50,7 +51,7 @@
           >
           <div class="mt-10">
             <button
-              class="px-4 py-2 bg-mainBlue text-white font-flex font-semibold border-mainBlue border rounded mr-4 mb-2"
+              class="button border mr-4 mb-2"
             >
               Zobacz zdjęcia
             </button>
@@ -62,16 +63,19 @@
           </div>
         </div>
       </div>
-        <div class="absolute w-8/12 right-0 top-2/4 ">
+        <div class="absolute w-11/12 md:w-8/12 right-0 bottom-0 ">
           <img
             src="assets/background_cars.png"
             class="absolute"
             alt="Cars on background"
           />
-          <img src="assets/shadow.png" class="absolute" alt="Cars shadow" />
+          <img src="assets/shadow.png" class="" alt="Cars shadow" />
         </div>
+      </div>
+    </div>
+
     <div class="flex xl:justify-center ml-4 xl:ml-0 flex-nowrap">
-      <div class="w-8/12 sm:mt-20 lg:mt-40 2xl:mt-96">
+      <div class="w-8/12 mt-20 lg:mt-40 2xl:mt-96">
         <span class="block text-mainBlue font-condensed text-2xl mb-3"
           >Prezentacja firmy</span
         >
@@ -101,8 +105,8 @@
       <span class="text-mainBlue text-4xl">•</span
       ><span class="text-gray-200 text-4xl">••••</span>
     </div>
-    <div class="flex justify-center bg-footer mt-20 text-white">
-      <div class="w-2/4 xl:w-1/4 mb-14 sm:mr-40 mr-6 ml-4 mt-20">
+    <div class="footer_container mt-20 ">
+      <div class="info_container mb-14 sm:mr-40 mr-6 ml-4 ">
         <h3 class="font-main text-2xl">
           Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla
           commodo.
@@ -117,7 +121,7 @@
           <img src="assets/arrow.png" alt="arrow pointing down" />
         </div>
       </div>
-      <div class="w-2/4 xl:w-1/4 mt-20 mr-4">
+      <div class="info_container mr-4">
         <h3 class="font-main text-2xl">
           Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla
           commodo.
@@ -133,7 +137,7 @@
         </div>
       </div>
     </div>
-    <div class="flex justify-around bg-footer border-t p-2 text-white">
+    <div class="footer_container border-t p-2">
       <span class="font-condensed font-bold cursor-pointer">Cars Spot</span>
       <span class="font-condensed underline cursor-pointer"
         >Politka prywatności</span
